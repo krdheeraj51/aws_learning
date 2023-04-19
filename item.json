@@ -1,0 +1,30 @@
+
+{
+    "ProductCatalog": [{
+    "PutRequest":{
+        "Item":{
+            "Id":{
+                "N":"201"
+            },
+            "ProductCategory":{
+                "S":"Bicycle"
+            },
+            "Discription":{
+                "S":"Womens Road Bike"
+            },
+            "BicycleType":{
+                "S":"Road"
+            },
+            "Brand":{
+                "S":"Raleigh"
+            },
+            "Price":{
+                "N":"399"
+            },
+            "Color":{
+                "S":"Red"
+            }
+        }
+    }
+}]
+}
