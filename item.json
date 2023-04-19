@@ -49,6 +49,31 @@
                 "S":"Blue"
             }
         }
+    },
+    "PutRequest":{
+        "Item":{
+            "Id":{
+                "N":"203"
+            },
+            "ProductCategory":{
+                "S":"Car"
+            },
+            "Discription":{
+                "S":"Most Expensive Electric Car"
+            },
+            "CarType":{
+                "S":"EV"
+            },
+            "Brand":{
+                "S":"Tesla"
+            },
+            "Price":{
+                "N":"10599"
+            },
+            "Color":{
+                "S":"Dark Blue"
+            }
+        }
     }
 }]
 }
