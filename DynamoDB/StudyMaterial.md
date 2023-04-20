@@ -7,3 +7,6 @@
 ``` aws dynamodb batch-write-item --request-items files://item.json ```
 
 **Note:** item.json is file name from which we need to copy data.
+
+### Fetch data from DynamoDb table 
+``` aws dynamodb get-item --table-name ProductCatalog --region us-east-1 --key '{"Id":{"N":"203"}}' ```
